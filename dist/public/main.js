@@ -4,7 +4,8 @@ const btn = document.querySelector('button');
 const section = document.querySelector('section');
 function anitmateRasm() {
     rasmImg.forEach(function (img) {
-        img.innerHTML = `
+        img.innerHTML =
+            `
             <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
             `;
         img.className = 'lds-roller';

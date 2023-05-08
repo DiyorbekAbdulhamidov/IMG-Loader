@@ -4,7 +4,8 @@ const section = document.querySelector('section');
 
 function anitmateRasm() {
     rasmImg.forEach(function (img) {
-        img.innerHTML = `
+        img.innerHTML = 
+            `
             <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
             `
         img.className = 'lds-roller'
@@ -67,6 +68,6 @@ btn?.addEventListener("click", () =>{
         downloadAllImages();
     });
 
-    section?.appendChild(imgs)
+    section?.appendChild(imgs);
     section?.appendChild(newBtn);
 });
