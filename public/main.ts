@@ -50,7 +50,7 @@ async function downloadAllImages() {
 
 downloadAllImages();
 
-// NEXT VERSION
+// // NEXT VERSION
 // btn?.addEventListener("click", () =>{
 //     let imgs = document.createElement('div');
 //     imgs.className = "imgs";
@@ -58,6 +58,7 @@ downloadAllImages();
 //     for(let i = 0; i < 4; i++){
 //         let div = document.createElement('div');
 //         div.className = 'rasm';
+//         downloadAllImages();
 //         anitmateRasm();
 //         div.innerHTML = `<div class="rasm"><img src='${randomImg()}' alt=""></div>`;
 //         imgs.appendChild(div);
