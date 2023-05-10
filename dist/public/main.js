@@ -42,20 +42,21 @@ async function downloadAllImages() {
 }
 downloadAllImages();
 btn?.addEventListener("click", () => {
-    let imgs = document.createElement('div');
-    imgs.className = "imgs";
-    for (let i = 0; i < 4; i++) {
-        let div = document.createElement('div');
-        div.className = 'rasm';
-        anitmateRasm();
-        div.innerHTML = `<div class="rasm"><img src='${randomImg()}' alt=""></div>`;
-        imgs.appendChild(div);
-    }
-    let newBtn = document.createElement('button');
-    newBtn.textContent = "MORE";
-    newBtn.addEventListener("click", () => {
-        downloadAllImages();
-    });
-    section?.appendChild(imgs);
-    section?.appendChild(newBtn);
+    location.reload();
+    //     let imgs = document.createElement('div');
+    //     imgs.className = "imgs";
+    //     for(let i = 0; i < 4; i++){
+    //         let div = document.createElement('div');
+    //         div.className = 'rasm';
+    //         anitmateRasm();
+    //         div.innerHTML = `<div class="rasm"><img src='${randomImg()}' alt=""></div>`;
+    //         imgs.appendChild(div);
+    //     }
+    //     let newBtn = document.createElement('button');
+    //     newBtn.textContent = "MORE";
+    //     newBtn.addEventListener("click", () =>{
+    //         downloadAllImages();
+    //     });
+    //     section?.appendChild(imgs);
+    //     section?.appendChild(newBtn);
 });
