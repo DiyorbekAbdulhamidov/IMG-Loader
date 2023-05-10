@@ -50,15 +50,14 @@ async function downloadAllImages() {
 
 downloadAllImages();
 
-// // NEXT VERSION
-// btn?.addEventListener("click", () =>{
+btn?.addEventListener("click", () =>{
+    location.reload();
 //     let imgs = document.createElement('div');
 //     imgs.className = "imgs";
 
 //     for(let i = 0; i < 4; i++){
 //         let div = document.createElement('div');
 //         div.className = 'rasm';
-//         downloadAllImages();
 //         anitmateRasm();
 //         div.innerHTML = `<div class="rasm"><img src='${randomImg()}' alt=""></div>`;
 //         imgs.appendChild(div);
@@ -72,4 +71,4 @@ downloadAllImages();
 
 //     section?.appendChild(imgs);
 //     section?.appendChild(newBtn);
-// });
+});
